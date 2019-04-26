@@ -49,10 +49,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomerTest.cs" />
+    <Compile Include="CustomerShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ProductTest.cs" />
-    <Compile Include="CustomerRepositoryTest.cs" />
+    <Compile Include="ProductShould.cs" />
+    <Compile Include="CustomerRepositoryShould.cs" />
     <Compile Include="ProductRepositoryShould.cs" />
   </ItemGroup>
   <ItemGroup>

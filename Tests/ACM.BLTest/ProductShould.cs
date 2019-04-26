@@ -5,10 +5,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ACM.BLTest
 {
     [TestClass]
-    public class ProductTest
+    public class ProductShould
     {
         [TestMethod]
-        public void ShouldNotValidateInvalidData()
+        public void NotValidateInvalidData()
         {
             // Arrange
             var product = new Product

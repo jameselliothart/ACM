@@ -5,10 +5,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ACM.BLTest
 {
     [TestClass]
-    public class CustomerRepositoryTest
+    public class CustomerRepositoryShould
     {
         [TestMethod]
-        public void ShouldRetrieveValid()
+        public void RetrieveData()
         {
             // Arrange
             var customerRepository = new CustomerRepository();

@@ -5,10 +5,10 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace ACM.BLTest
 {
     [TestClass]
-    public class CustomerTest
+    public class CustomerShould
     {
         [TestMethod]
-        public void ShouldHaveValidFullName()
+        public void HaveValidFullName()
         {
             // Arrange
             var customer = new Customer
@@ -26,7 +26,7 @@ namespace ACM.BLTest
         }
 
         [TestMethod]
-        public void ShouldHandleFirstNameEmpty()
+        public void HandleFirstNameEmpty()
         {
             // Arrange
             var customer = new Customer
@@ -43,7 +43,7 @@ namespace ACM.BLTest
         }
 
         [TestMethod]
-        public void ShouldHandleLastNameEmpty()
+        public void HandleLastNameEmpty()
         {
             // Arrange
             var customer = new Customer
@@ -79,7 +79,7 @@ namespace ACM.BLTest
         }
 
         [TestMethod]
-        public void ShouldValidateValidData()
+        public void ValidateValidData()
         {
             // Arrange
             var customer = new Customer()
@@ -97,7 +97,7 @@ namespace ACM.BLTest
         }
 
         [TestMethod]
-        public void ShouldNotValidateInvalidData()
+        public void NotValidateInvalidData()
         {
             // Arrange
             var customer = new Customer()

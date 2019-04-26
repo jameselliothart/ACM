@@ -21,26 +21,6 @@ namespace ACM.BL
         public DateTimeOffset? OrderDate { get; set; }
         
         /// <summary>
-        /// Retrieve all products
-        /// </summary>
-        public List<Order> Retrieve()
-        {
-            // TODO retrieve all products
-
-            return new List<Order>();
-        }
-
-        /// <summary>
-        /// Save the current order
-        /// </summary>
-        public bool Save()
-        {
-            // TODO save the defined order
-
-            return true;
-        }
-
-        /// <summary>
         /// Validates the order data
         /// </summary>
         /// <returns></returns>

@@ -54,6 +54,7 @@
     <Compile Include="ProductShould.cs" />
     <Compile Include="CustomerRepositoryShould.cs" />
     <Compile Include="ProductRepositoryShould.cs" />
+    <Compile Include="OrderRepositoryShould.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

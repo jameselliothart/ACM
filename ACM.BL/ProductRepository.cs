@@ -31,9 +31,28 @@ namespace ACM.BL
         /// </summary>
         public bool Save(Product product)
         {
-            // TODO save the defined customer
+            var success = true;
 
-            return true;
+            if (product.HasChanges)
+            {
+                if (product.IsValid)
+                {
+                    if (product.IsNew)
+                    {
+                        // insert
+                    }
+                    else
+                    {
+                        // update
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+
+            return success;
         }
     }
 }

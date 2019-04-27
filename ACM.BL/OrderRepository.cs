@@ -26,11 +26,30 @@ namespace ACM.BL
         /// <summary>
         /// Save the current order
         /// </summary>
-        public bool Save(Product product)
+        public bool Save(Product order)
         {
-            // TODO save the defined customer
+            var success = true;
 
-            return true;
+            if (order.HasChanges)
+            {
+                if (order.IsValid)
+                {
+                    if (order.IsNew)
+                    {
+                        // insert
+                    }
+                    else
+                    {
+                        // update
+                    }
+                }
+                else
+                {
+                    success = false;
+                }
+            }
+
+            return success;
         }
     }
 }

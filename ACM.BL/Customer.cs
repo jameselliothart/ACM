@@ -44,6 +44,8 @@ namespace ACM.BL
 
         public static int InstanceCount { get; set; }
 
+        public override string ToString() => FullName;
+
         /// <summary>
         /// Validates the customer data
         /// </summary>

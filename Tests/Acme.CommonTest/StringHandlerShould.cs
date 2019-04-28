@@ -15,7 +15,7 @@ namespace Acme.CommonTest
             var expected = "The Ansible";
 
             // Act
-            var actual = StringHandler.InsertSpaces(source);
+            var actual = source.InsertSpaces();
 
             // Assert
             Assert.AreEqual(expected, actual);
@@ -29,7 +29,7 @@ namespace Acme.CommonTest
             var expected = "The Ansible";
 
             // Act
-            var actual = StringHandler.InsertSpaces(source);
+            var actual = source.InsertSpaces();
 
             // Assert
             Assert.AreEqual(expected, actual);
